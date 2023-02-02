@@ -1,0 +1,55 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.navBar .logo .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navBar .navItem {
+    display: flex;
+    gap: 2rem;
+}
+
+.navBar .navItem ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.navBar .navItem ul li {
+    width: 100%;
+
+}
+
+.Modal-logo {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Box-Body {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
