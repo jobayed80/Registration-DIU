@@ -1,9 +1,7 @@
 .navBar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
 
+    margin-top: 20px;
+   
 }
 
 .navBar .logo .image {
@@ -37,7 +35,21 @@ a {
     width: 100%;
 
 }
-
+.underLine{
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    justify-content:center;
+    align-items: center;
+}
+.underLine .underLine1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.underLine .underLine2{
+    width: 30%;
+}
 .Modal-logo {
     width: 250px;
     margin: 0 auto;
@@ -50,6 +62,171 @@ a {
     object-fit: contain;
 }
 
-.Box-Body {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ .navBar .Box-Body {
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
+    /* background: #000; */
 }
+
+.social-media{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.2rem;
+}
+.social-media .google{
+   
+}
+.social-media .phone{
+    
+ }
+.social-media .google small{
+    box-shadow: #45a195 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   border: 1px solid antiquewhite;
+   font-size: 1.5rem;
+   color: aliceblue;
+   padding: 0.7rem;
+   border-radius: 50%;
+   background: #DA3F34;
+   cursor: pointer;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 6px;
+   transition: all 0.5s ease-in-out;
+   -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+.social-media .google small:hover{
+    background: azure;
+    color: #DA3F34;
+    font-size: 2rem;
+}
+
+
+.social-media .phone small{
+    box-shadow: #2AD4BC 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border: 1px solid antiquewhite;
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    color: aliceblue;
+    border-radius: 50%;
+    background: #64F257;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.social-media .phone small:hover{
+    background: azure;
+    color: #64F257;
+    font-size: 2rem;
+}
+
+
+
+.social-media .google p:hover{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+
+.social-media .phone p:hover{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+
+.social-media .google p small {
+    font-size: 0.9rem;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.social-media .phone p small {
+    font-size: 0.9rem;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Goto-register-btn{
+    margin-top: 15px;
+    text-align: center;
+}
+.register-here{
+    text-transform: capitalize;
+    margin-left: -16px;
+    color: black;
+    font-weight:500;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+/* .left-img{
+    background: url(https://templates.seekviral.com/trimba2/forms/BrandConsultingForm/assets/images/left-bg.gif);
+} */
+
+.header-title h1{
+    font-size:2.4rem;
+    color: #05554a;
+}
+
+
+/* left side styling */
+  .i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .i-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .i-name > :nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .i-name > :nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .i-name > :nth-child(3) {
+    font-weight: 100;
+    font-size: 19px;
+    color: var(--gray);
+    margin-top: 10px;
+  }
+  .i-button {
+    width: 9rem;
+    height: 2.6rem;
+  }
